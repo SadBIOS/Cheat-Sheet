@@ -1,4 +1,4 @@
-# Enable dGPU Switching Capabilities in Modern Asus
+# Enable dGPU Switching Capabilities in Modern Asus Laptops
 
 ### 1. Enable ASUS Linux COPR and RPM Fusion (for NVIDIA)
 ```bash
