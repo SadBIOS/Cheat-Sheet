@@ -95,12 +95,14 @@ CubeIDE
 ---
 ### 4. Adding Firmware Packages
 #### Collect all firmware packages
-I own the following MCU boards.
 
 > [!WARNING]  
-> There are **TWO** firmware package, one called **STM32CubeXX** and **Patch_CubeXX** (where XX stands for the core, which in my case are thee F1, F4, F7, G4 and H7)
+> * There are **TWO** firmware package, one called **STM32CubeXX** and **Patch_CubeXX** (where XX stands for the core, which in my case are thee F1, F4, F7, G4 and H7)
+> * Check CubeMX's package manager (inside ```Help > Manage embedded software packages```) for the latest supported package version before downloading. As anything newer will not show up there and will cause problems
 
 #### Download Links 
+The download links are for the controllers that I own
+
 > * [STM32F1xx](https://www.st.com/en/embedded-software/stm32cubef1.html)
 > * [STM32F4xx](https://www.st.com/en/embedded-software/stm32cubef4.html)
 > * [STM32F7xx](https://www.st.com/en/embedded-software/stm32cubef7.html)
@@ -166,5 +168,5 @@ mkdir -p ~/STM32Cube/Repository
 > ```
 
 > [!IMPORTANT]  
-> * This project has been tested for kernel **6.12.94+deb13** (Debian 13.5 "*Trixie*") running **XFCE4**.
-> * As of writing **Wayland** support is unknown.
+> * This project has been tested for kernel **6.12.94+deb13** (Debian 13.5 "*Trixie*") running **XFCE4**
+> * As of writing, **Wayland** support is unknown
