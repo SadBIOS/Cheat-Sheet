@@ -56,7 +56,6 @@ sudo apt install unzip p7zip-full libusb-1.0-0 libusb-1.0-0-dev udev zenity defa
 > ```
 #### Change execution permissions of extracted files for installation
 
-<br>
 CubeMX
 
 > ```bash
