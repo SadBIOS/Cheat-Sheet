@@ -147,6 +147,7 @@ mkdir -p ~/STM32Cube/Repository
 > ```bash
 > sudo micro /usr/share/applications/st-stm32cubeide-2.1.1.desktop
 > ```
+> ---
 > Change
 > ```bash 
 > Exec=/opt/st/stm32cubeide_2.1.1/stm32cubeide_wayland %F
