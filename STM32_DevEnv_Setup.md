@@ -31,7 +31,7 @@ sudo apt install unzip p7zip-full libusb-1.0-0 libusb-1.0-0-dev udev zenity defa
 > * All package names were preserved for clarity 
 
 > [!TIP]
-> Downloading files from **STEP 2** and **STEP ???????** beforehand is required for **Air-gapped** deployments.
+> Downloading files from **STEP 2** and **STEP 4** beforehand is required for **Air-gapped** deployments.
 
 #### Create the following directories
 
@@ -143,7 +143,7 @@ mkdir -p ~/STM32Cube/Repository
 ---
 
 > [!NOTE]
-> ### If stm32cubeide for some reason does not show up/launch
+> ### If STM32CubeIDE for some reason does not show up/launch
 > Edit this file with superuser persmissions
 > ```bash
 > sudo micro /usr/share/applications/st-stm32cubeide-2.1.1.desktop
